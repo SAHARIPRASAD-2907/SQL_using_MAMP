@@ -23,7 +23,7 @@ describe table_name
 create table employee( Fname VARCHAR(15), Minit CHAR(1), LName VARCHAR(15), SSN INTEGER(10), BDate DATE, Address Varchar(30), Sex CHAR(1), Salary INT(10), SuperSSN INTEGER(10) DEFAULT NULL, DepNo CHAR(1));
 ```
 
-##### CREATING TABLE MANAGER
+##### CREATING TABLE DEPARTMENT
 ```sql
 create table Department( Dname VARCHAR(15), DepNo CHAR(1), MgrSSN INT(10), MgeStart DATE);
 ```
@@ -44,4 +44,9 @@ insert into project values( "ProjectG", 1234, "New York", 2);
 insert into project values( "ProjectH", 3467, "Stafford",4);
 insert into project values( "ProjectI", 4345, "Chicago",1);
 insert into project values( "ProjectJ",2212, "San Franciso",2);
+```
+##### INSERTING DATA INTO DEPARTMENT
+```
+insert into department values("Manufacture",1,888665555,DATE '1971-6-19');
+insert into department values("Administrartion",2,543216789,DATE '1999-1-04');
 ```
