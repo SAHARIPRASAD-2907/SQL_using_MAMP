@@ -13,6 +13,21 @@ SHOW DATABASES;
 USE database_name;
 ````
 
-##### CREATING TABLE EMPLOYEE
+##### Describing Table
+```
+describe table_name
+```
 
+##### CREATING TABLE EMPLOYEE
+```sql
+create table employee( Fname VARCHAR(15), Minit CHAR(1), LName VARCHAR(15), SSN INTEGER(10), BDate DATE, Address Varchar(30), Sex CHAR(1), Salary INT(10), SuperSSN INTEGER(10) DEFAULT NULL, DepNo CHAR(1));
+```
+
+##### CREATING TABLE MANAGER
+```sql
+create table Department( Dname VARCHAR(15), DepNo CHAR(1), MgrSSN INT(10), MgeStart DATE);
+```
+
+##### CREATING TABLE PROJECT
+create table Project( Pname Varchar(10), pnumber INT(4), Plocation Varchar(20), DepNo CHAR(1));
 
