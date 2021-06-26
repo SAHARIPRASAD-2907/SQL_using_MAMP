@@ -46,7 +46,7 @@ insert into project values( "ProjectI", 4345, "Chicago",1);
 insert into project values( "ProjectJ",2212, "San Franciso",2);
 ```
 ##### INSERTING DATA INTO DEPARTMENT
-```
+```sql
 insert into department values("Manufacture",1,888665555,DATE '1971-6-19');
 insert into department values("Administrartion",2,543216789,DATE '1999-1-04');
 ```
