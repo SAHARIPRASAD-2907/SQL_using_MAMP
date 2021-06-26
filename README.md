@@ -4,8 +4,15 @@
 /Applications/MAMP/Library/bin/mysql -uroot -proot
 
 ##### See all databases 
->>SHOW DATABASES;
+```SQL
+SHOW DATABASES;
+```
 
 ##### Selecting Database
->> USE database_name;
+```sql
+USE database_name;
+````
+
+##### CREATING TABLE EMPLOYEE
+
 
