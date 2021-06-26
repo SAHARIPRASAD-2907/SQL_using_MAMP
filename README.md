@@ -41,4 +41,7 @@ insert into project values( "ProjectD", 2423, "Bellaire", 4);
 insert into project values( "ProjectE", 7745, "Sugarland", 5);
 insert into project values( "ProjectF", 1566, "Salt lake City", 3);
 insert into project values( "ProjectG", 1234, "New York", 2);
+insert into project values( "ProjectH", 3467, "Stafford",4);
+insert into project values( "ProjectI", 4345, "Chicago",1);
+insert into project values( "ProjectJ",2212, "San Franciso",2);
 ```
