@@ -29,5 +29,7 @@ create table Department( Dname VARCHAR(15), DepNo CHAR(1), MgrSSN INT(10), MgeSt
 ```
 
 ##### CREATING TABLE PROJECT
+```sql
 create table Project( Pname Varchar(10), pnumber INT(4), Plocation Varchar(20), DepNo CHAR(1));
+```
 
