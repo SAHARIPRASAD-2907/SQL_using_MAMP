@@ -49,4 +49,7 @@ insert into project values( "ProjectJ",2212, "San Franciso",2);
 ```sql
 insert into department values("Manufacture",1,888665555,DATE '1971-6-19');
 insert into department values("Administrartion",2,543216789,DATE '1999-1-04');
+insert into department values("Headquarter",3,554433221,DATE '1955-9-22');
+insert into department values("Finance",4,987654321,DATE '1985-1-01');
+insert into department values("Research",5,333445555,DATE '1978-5-22');
 ```
