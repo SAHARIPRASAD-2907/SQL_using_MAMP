@@ -53,3 +53,9 @@ insert into department values("Headquarter",3,554433221,DATE '1955-9-22');
 insert into department values("Finance",4,987654321,DATE '1985-1-01');
 insert into department values("Research",5,333445555,DATE '1978-5-22');
 ```
+
+##### INSERTING DATA INTO EMPLOYEE
+```sql
+insert into employee values('Douge', 'E', 'Gilbert', 554433221, DATE '1960-6-09', '11 S 59 E, salt Lake City, UT', 'M', 80000, NULL, 3);
+insert into employee values('Joyce', NULL, 'PAN', 543216789, DATE '1978-2-07', '35 S 18 E, Salt Lake City,UT', 'F', 70000, NULL, 2);
+```
