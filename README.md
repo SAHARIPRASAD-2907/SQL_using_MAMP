@@ -98,11 +98,11 @@ update employee set DepNo=5 where fname="Joyce";
 8. Alter Table department add column DepartmentPhoneNum of NUMBER data type
 and insert values into this column only.
 ```sql
-Alter table employee add DepartmentPhoneNum int(11);
+Alter table department add DepartmentPhoneNum int(11);
 ```
 9. Alter table department to modify the size of DepartmentPhoneNum.
 ```sql
-
+alter table department modify DepartmentPhoneNum int(20);
 ```
 10. Modify the field name DepartmentPhoneNum of departments table to PhNo.
 ```sql
