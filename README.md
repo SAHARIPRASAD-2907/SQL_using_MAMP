@@ -17,6 +17,9 @@ USE database_name;
 ```
 describe table_name
 ```
+# Exercise 1
+
+1. Insert the data into the table employee, department,project;
 
 ##### CREATING TABLE EMPLOYEE
 ```sql
@@ -68,3 +71,60 @@ insert into employee values("Alicia", "J", "Zelaya", "999887777", DATE '1958-07-
 insert into employee values("Ahmad", "V", "Jabbar", "987987987", DATE '1959-03-29', "980 Dallas Houston,TX", "M", 25000, 987654321, 4);
 ```
 
+2. Display all the employees’ information.
+```sql
+select * from employee;
+```
+3. Display Employee name along with his SSN and Supervisor SSN.
+```sql
+select CONCAT(Fname," ",LName) AS Name,SSN,SuperSSN from employee;
+```
+4. Display the employee names whose bdate is ’29-MAR-1959’.
+```sql
+select * from employee where Bdate=DATE '1959-03-29';
+```
+5. Display salary of the employees without duplications.
+```sql
+select distinct Salary from employee;
+```
+6. Display the MgrSSN, MgrStartDate of the manager of ‘Finance’ department.
+```sql
+select MgrSSN,MgeStart from department where Dname="Finance";
+```
+7. Modify the department number of an employee having fname as ‘Joyce’ to 5
+```sql
+update employee set DepNo=5 where fname="Joyce";
+```
+8. Alter Table department add column DepartmentPhoneNum of NUMBER data type
+and insert values into this column only.
+```sql
+Alter table employee add DepartmentPhoneNum int(11);
+```
+9. Alter table department to modify the size of DepartmentPhoneNum.
+```sql
+
+```
+10. Modify the field name DepartmentPhoneNum of departments table to PhNo.
+```sql
+
+```
+11. Rename Table Department as DEPT.
+```sql
+
+```
+12. Alter Table department remove column PhNo.
+```sql
+
+```
+13. Create a table COPYOFDEPT as a copy of the table DEPT.
+```sql
+
+```
+14. Delete all the rows from COPYOF DEPT table.
+```sql
+
+```
+15. Remove COPYOF DEPT table.
+```sql
+
+```
